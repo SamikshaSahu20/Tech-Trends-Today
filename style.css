@@ -1,0 +1,178 @@
+/* styles.css */
+
+/* Heading Fonts and Colors */
+ h2, h3, h4, h5, h6 {
+ font-family: 'Georgia', serif; /* Georgia for headings */
+ letter-spacing: 2px; 
+  color: #333; /* Specify the desired color for headings */
+}
+
+
+
+/* Body Font and Color */
+body {
+  font-family: 'Gabriola', cursive; /* Keeping Arial as body font */
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* Light background color */
+  font-size: 25px;
+  color: #666; /* Specify the desired color for body text */
+}
+
+header {
+font-family: 'Lobster', cursive;
+  background-color: #2c3e50; /* Updated to a darker shade of blue-gray */
+  color: #fff;
+  padding: 20px;
+font-size: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  font-family: 'Fredoka One', sans-serif; /* Fredoka One for links */
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.section {
+  padding: 20px;
+  margin: 20px 0;
+  background-color:#FFF ; /* White background for sections */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+footer {
+  background-color: #2c3e50; /* Updated to a darker shade of blue-gray */
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Additional Styles for New Color Scheme */
+
+h1 {
+  font-family: 'Montserrat', sans-serif; /* Changed font to Montserrat */
+  color:#e74c3c; /* Updated to a shade of red */
+}
+
+nav ul li a:hover {
+  color: #e74c3c; /* Updated to a shade of red on hover for navigation links */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #2c3e50; /* Updated to a darker shade of blue-gray */
+  color: #fff;
+  padding: 50px 0; /* Added padding for better spacing */
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+
+}
+
+.link-list li {
+  margin-bottom: 10px;
+
+}
+
+.link-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-list li a:hover {
+  color: #e74c3c; /* Updated to a shade of red on hover for links */
+}
+
+/* Sub-footer Styles */
+#sub-footer {
+  background-color: #333; /* Dark gray */
+  color: #fff;
+  padding: 20px 0;
+}
+
+#sub-footer .container {
+  text-align: center;
+}
+
+.social-network {
+  list-style: none;
+  padding: 0;
+
+}
+
+.social-network li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-network li a {
+  color: #e74c3c;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-network li a:hover {
+  color: #e74c3c; /* Updated to a shade of red on hover for social links */
+}
+
+.article-video-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.article,
+.video {
+  width: calc(48% - 10px); /* Adjust width to fit two items in a row with some margin */
+  padding: 10px;
+  background-color: #A7BBCB;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article h4,
+.video h4 {
+  color: #333;
+}
+
+.article p,
+.video p {
+  color: #666;
+}
+
+.read-more,
+.watch-now {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #4a4e69;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.read-more:hover,
+.watch-now:hover {
+  background-color: #2c3e50;
+}
+
+.container {
+  position: relative;
+}
+
+
+
